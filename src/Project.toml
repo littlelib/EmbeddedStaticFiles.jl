@@ -1,0 +1,7 @@
+name = "EmbeddedStaticFiles"
+uuid = "a1d4f4c8-14a5-480f-aa25-f34aebc47918"
+authors = ["llib "]
+version = "0.1.0"
+
+[deps]
+Base64 = "2a0f44e3-6c83-55bd-87e4-b1978d98bd5f"
