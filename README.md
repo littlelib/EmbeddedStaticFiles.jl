@@ -20,7 +20,7 @@ using Pkg
 Pkg.add("https://github.com/JuliaServices/ConcurrentUtilities.jl.git")
 ```
 ## Example scenario
-Let's assume there's a simple julia package in `~/SimplePackage`. It would be nice to have a few template html/js/css files as assets, which are located in `~/data` as `index.html`, `main.js`, and `main.css`. You want the assets to be stored in `~/SimplePackage/src/static_files`. You want the file handler(wrapping julia module)'s name to be "File".
+Let's assume there's a simple julia package in `~/SimplePackage`. It would be nice to have a few template html/js/css files as assets, which are located in `~/data` as `index.html`, `main.js`, and `main.css`. You want the assets to be stored in `~/SimplePackage/src/static_files`. You want the file handler(wrapper julia module)'s name to be "File".
 
 ```julia
 julia> using EmbeddedStaticFiles
